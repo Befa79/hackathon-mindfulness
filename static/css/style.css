@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Indie+Flower&display=swap');
+
+.nav-item {
+    font-family: 'Dosis', sans-serif;
+}
+
+div > p {
+    font-family: 'Indie Flower', cursive;
+}
