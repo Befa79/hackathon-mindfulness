@@ -21,11 +21,10 @@ body {
 }
 
 h2 {
-    font-size: 120%;
     margin: 50px;
 }
 
-h2, p {
+h2, h5, p {
     text-align: center;
 }
 .checklist-container {
@@ -36,6 +35,12 @@ h2, p {
     margin: 30px;
     padding: 20px;
     width: 50%;
+}
+
+.card {
+    height: 200px;
+    margin: 30px 0;
+
 }
 
 /* clear your head page */
