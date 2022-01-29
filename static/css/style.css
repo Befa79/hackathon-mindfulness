@@ -29,6 +29,24 @@ h2, p {
     width: 50%;
 }
 
+/* clear your head page */
+
+.countdown-bar {
+    margin: 20px;
+    width: 50%;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+ }
+
+ .form-floating {
+    margin: 20px;
+    width: 60%;
+    height: 40%;
+    border-radius: 20px;
+ }
+
+
 /* Home Page (Rob) */ 
 
 nav{
