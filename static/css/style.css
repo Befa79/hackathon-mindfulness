@@ -25,17 +25,28 @@ h2, p {
 
 /* clear your head page */
 
-.countdown-bar {
+#countdown-bar {
     margin: 20px;
     width: 50%;
     height: 15px;
-    border: 1px solid black;
+    border: 1px solid #006D77;
     border-radius: 20px;
+    background-color: #83C5BE;
  }
+
+#time-left {
+    float: right;
+    background-color: #EDF6F9;
+    height: 15px;
+}
 
  .form-floating {
     margin: 20px;
     width: 60%;
     height: 40%;
     border-radius: 20px;
+ }
+
+ #clear-btn {
+     margin-bottom: 30px;
  }
