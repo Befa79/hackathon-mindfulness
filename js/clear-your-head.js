@@ -1,13 +1,21 @@
-let deleteAudio = new Audio("audios/whoosh.flac");
+let deleteTextSound = new Audio("audios/whoosh.flac");
 
-document.getElementById("clear-btn").addEventListener("click", deleteBtnClick);
+document.getElementById("clear-btn").addEventListener("click", clearBtnClick);
 
-function deleteBtnClick() {
+
+function clearBtnClick() {
     document.getElementById("floatingTextarea2").value="";
 
-    deleteAudio.play();
-    deleteAudio.volume = 0.3;
-    deleteAudio.loop = false;
+    deleteTextSound.play();
+    deleteTextSound.volume = 0.3;
+    deleteTextSound.loop = false;
 }
 
 
+function timer (){
+    document.getElementById("5-min-btn").addEventListener("click", fiveMinuteTimer);
+}
+
+function fiveMinuteTimer() {
+
+}
