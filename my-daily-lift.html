@@ -11,6 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="static/css/style.css">
 
     <title>Document</title>
@@ -19,204 +20,239 @@
 <body>
 
     <!-- section navbar -->
-    <nav class="nav nav-pills justify-content-center">
-
-        <a class="nav-item nav-link" href="index.html">Home</a>
-        <a class="nav-item nav-link" href="#">About</a>
-        <a class="nav-item nav-link" href="clear-your-head.html">Clear Your Head</a>
-        <a class="nav-item nav-link" href="my-daily-lift.html">My Daily Lift</a>
-        <a class="nav-item nav-link" href="#">Login</a>
-    </nav>
-
+    <header>
+        <nav>
+            <h1 class="site-name">Mindscape</h1>
+            <ul class="menu">
+                <li><a class="nav-item" href="index.html">Home</a></li>
+                <li><a class="nav-item" href="#">About</a></li>
+                <li><a class="nav-item" href="clear-your-head.html">Clear Your Head</a></li>
+                <li><a class="nav-item" href="my-daily-lift.html">My Daily Lift</a></li>
+                <li><a class="nav-item" href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
     <!--main container-->
-    <div class="container">
+    <div class="container body-container">
 
         <h2>My Daily Lift</h2>
         <p> Intro message</p>
+
+        <!--checklist panel cards from bootstrap-->
         <div class="row">
-            <div class="d-flex justify-content-center">
-                <div class="checklist-container">
-                    <form action="">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-users"></i> Connect</h4>
                         <div class="form-check">
-                            <!--checkbox that triggers a modal-->
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" data-bs-toggle="modal"
-                                data-bs-target="#modal1">
                             <label class="form-check-label" for="flexCheckChecked">
-                               <h4>Fuelled Up</h4>
-                               <p>Have you made time to eat today?</p>
+                                <p>Have you spoken to someone today?<br>
+                                    Working from home can be lonely.<br>
+                                    Call a friend, message a colleague. Reach out.
+                                </p>
                             </label>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                data-bs-toggle="modal" data-bs-target="#modal1">
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-tint"></i> Stay Hydrated</h4>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" data-bs-toggle="modal"
-                                data-bs-target="#modal2">
                             <label class="form-check-label" for="flexCheckChecked">
-                                <h4>Stay Hydrated</h4>
-                               <p>Have you drank any water today?</p>
+                                <p>Have you drank any water today?<br>
+                                    Ease off the caffeine and make sure you drink lots of water.
+                                </p>
                             </label>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                data-bs-toggle="modal" data-bs-target="#modal2">
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-walking"></i> Getting Active</h4>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" data-bs-toggle="modal"
-                                data-bs-target="#modal3">
                             <label class="form-check-label" for="flexCheckChecked">
-                                <h4>Getting Active</h4>
-                                <p>Have you been outside today or walked up the stairs?</p>
+                                <p>Have you been outside today or walked up the stairs?<br>
+                                    Getting moving can be a great way to let go of stress.
+                                </p>
                             </label>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                data-bs-toggle="modal" data-bs-target="#modal3">
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-book"></i> Take A Break</h4>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" data-bs-toggle="modal"
-                                data-bs-target="#modal4">
                             <label class="form-check-label" for="flexCheckChecked">
-                                <h4>Connect</h4>
-                                <p>Have you spoken to someone today? Reach out.</p>
+                                <p>Have you taken a break from the screen?<br>
+                                    Reading a book or simply make a cup of tea without your phone.</p>
                             </label>
-                            </label>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                data-bs-toggle="modal" data-bs-target="#modal4">
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-spa"></i> Being Present</h4>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" data-bs-toggle="modal"
-                                data-bs-target="#modal5">
                             <label class="form-check-label" for="flexCheckChecked">
-                                <h4>Take A Break</h4>
-                                <p>Have you taken a break from the screen? Try reading a book or even make a cup of tea without your phone.</p>
+                                <p>Have you taken a moment to breath?<br>
+                                    Try meditating or focus on your breathing.<br>
+                                    In and out for a three breaths.</p>
                             </label>
-                            </label>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                data-bs-toggle="modal" data-bs-target="#modal5">
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-utensils"></i> Fuelled Up</h4>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" data-bs-toggle="modal"
-                                data-bs-target="#modal6">
                             <label class="form-check-label" for="flexCheckChecked">
-                                <h4>Be Kind To Yourself</h4>
-                                <p>Have you been kind to yourself today? Remember...insert affirmation</p>
+                                <p>Have you made time to eat today?<br>
+                                    Make sure you stay fuelled up and power your body!
+                                </p>
                             </label>
-                            </label>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                data-bs-toggle="modal" data-bs-target="#modal1">
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" data-bs-toggle="modal"
-                                data-bs-target="#modal7">
-                            <label class="form-check-label" for="flexCheckChecked">
-                                <h4>Being Present</h4>
-                                <p>Have you taken a moment to breath? Try meditating or even focusing on three breaths in and out.</p>
-                            </label>
-                            </label>
-                        </div>
-
-                        <button type="reset">Refresh</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- modals -->
-    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Fabulous! Eating enough food throughout the day is important to keep us fuelled up. Keep having a great day!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modal2">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>modal2
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>modal3</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-            </div>
-        </div>
-    </div>
 
 
+        <!-- modals -->
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Fabulous! Eating enough food throughout the day is important to keep us fuelled up. Keep
+                            having a great day!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal2">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>modal2
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>modal3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- Section footer -->
-    <footer>
-        <p>Author: MindHackers<br>
-            <a href="mailto:MindHackers@example.com">mindhackers@example.com</a></p>
-    </footer>
 
-    <!-- For separate Popper Option 2 is required, then option 1 should be changed to comment -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-    <script src="js/my-daily-life.js"></script>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+        <!-- Section footer -->
+        <footer>
+            <p>Author: MindHackers<br>
+                <a href="mailto:MindHackers@example.com">mindhackers@example.com</a></p>
+        </footer>
+
+        <!-- For separate Popper Option 2 is required, then option 1 should be changed to comment -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+        <script src="js/my-daily-life.js"></script>
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
