@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Indie+Flower&display=swap');
+
+.nav-item, h2 {
+    font-family: 'Dosis', sans-serif;
+}
+
+div > p {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* my daily lift */
+
+h2, p {
+    text-align: center;
+}
+.checklist-container {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 50px;
+    padding: 20px;
+    width: 50%;
+}
