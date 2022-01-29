@@ -104,8 +104,7 @@ nav > ul {
 }
 
 .menu a:hover{
-    background-color:var(--hoverNavBackground);
-    border-bottom: 1px solid var(--navBarUnderline);
+    background-color:var(--positiveSloganBackground);
 }
 
 .home-hero-outer{
