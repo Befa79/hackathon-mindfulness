@@ -153,8 +153,8 @@ nav > ul {
     .dropdown-menu-nav{
         display: flex;
         align-items: center;
-        margin: 15px;
-        padding: 5px;
+        margin: 0px;
+        padding: 20px;
     }
     .dropdown-menu-nav:hover{
         background-color: var(--positiveSloganBackground);
