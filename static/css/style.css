@@ -16,6 +16,14 @@ div > p {
 }
 
 /* my daily lift */
+body {
+    background-color: #FFDDD2;
+}
+
+h2 {
+    font-size: 120%;
+    margin: 50px;
+}
 
 h2, p {
     text-align: center;
@@ -23,8 +31,9 @@ h2, p {
 .checklist-container {
     font-family: 'Indie Flower', cursive;
     text-align: center;
-    background-color: aquamarine;
-    margin: 50px;
+    background-color: #C1E2DE;
+    border-radius: 20px;
+    margin: 30px;
     padding: 20px;
     width: 50%;
 }
@@ -61,6 +70,7 @@ h2, p {
 /* Home Page (Rob) */ 
 
 nav{
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
