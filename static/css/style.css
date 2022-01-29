@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200,600&family=Indie+Flower&display=swap');
+
+:root{
+    --positiveSlogan: #D88C9A;
+    --positiveSloganBackground: rgba(100, 100, 100, 0.4); 
+}
+
+
 
 .nav-item, h2 {
     font-family: 'Dosis', sans-serif;
@@ -21,3 +28,95 @@ h2, p {
     padding: 20px;
     width: 50%;
 }
+
+/* clear your head page */
+
+#countdown-bar {
+    margin: 20px;
+    width: 50%;
+    height: 15px;
+    border: 1px solid #006D77;
+    border-radius: 20px;
+    background-color: #83C5BE;
+ }
+
+#time-left {
+    float: right;
+    background-color: #EDF6F9;
+    height: 15px;
+}
+
+ .form-floating {
+    margin: 20px;
+    width: 60%;
+    height: 40%;
+    border-radius: 20px;
+ }
+
+ #clear-btn {
+     margin-bottom: 30px;
+ }
+
+
+/* Home Page (Rob) */ 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.site-name{
+    padding:0 10px;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+.menu li{
+    margin: 10px 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu a:hover{
+    background-color:var(--positiveSloganBackground);
+}
+
+.home-hero-outer{
+    position: relative;
+}
+
+.positive-slogan{
+    position: absolute;  
+    left: 50%;
+    top: 10%;       
+    transform: translate(-50%, -50%);
+
+    white-space: nowrap;
+    color: var(--positiveSlogan);
+    font-weight: 200;
+    background-color: var(--positiveSloganBackground);
+    padding: 5px;
+}
+
+.home-hero-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
