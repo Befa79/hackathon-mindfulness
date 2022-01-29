@@ -2,38 +2,52 @@
 
 ![Mock-up of site]()
 
-
+Mindscape has been developed as part of Code Institute's Hackathon, partnered with Trust in Soda. This Hackathon is on "Accerlerating the future of workforce well-being and mindfulness".The brief for this Hackathon is to develop a site that rethinks soloutions to help build an initiative to improve different aspects of mental health and well-being in 2022. 
 
 Deployed website can be viewed [here]().
 
 
 ## Project Goals
 
+- To provide information to support those working from home to manage stress and feelings of lonliness and isolation.
+- To provide real world tools and strategies to aid people to manage stress at work and impact of working from home.
+- To encourage and support the conversation surrounding mental health in the workplace and open up dialogue. 
 
 
 ## UX Design
 
-## Strategy Plane
-
 ### Site Owner Goals
-* For children and players to have fun
-* For children and players to learn about climate change
-* For players and/ or parents etc. to leave feedback and/ or get in touch
-* To engage with parents etc. in conversation about the environment and open up dialogue
 
 ### User Stories
-
-
-
+- As a user, I want to understand the purpose of the site easily.
+- As a user, I want to navigate throughout the site easily and efficiently.
+- As a user, I want to experience responsive design, so I can use the site on different devices.
+- As a user, I want to engage with an interactive chatbox, so I can help me find ways to reduce stress whilst working.
+- As a user, I want to find easy to understand content about mindfulness and stress management tools.
+- As a user, I want to use different timers to manage my 
+- As a user, I want to listen to calming sounds.
+- As a user, I want to be able to control whether I listen to the sounds or not.
+- As a user, I want to write down how I am feeling and be able to clear it when finished. 
+- As a user, I want to enjoy simple and streamlined design that emulates the purpose of the site.
+- As a user, I want to enjoy images that reflect the aim of the site and convey feelings of calmness and relaxation. 
+- As a user, I want to find social media links, so I can stay up-to-date on relevant tips and information about managing stress at work. 
 
 
 
 ### **Existing Features**
+* Responsive design- the site has been developed using Bootstrap and custom CSS to ensure the site is responsive across all devices.
+* Interactive chat box
+* Timers- the site includes timers that enables the user to select a timer for a time out session. This encourages the user to take some time out from there day and can hold the user accountable. It's easy to say that you will take 5 minutes but when it is timed it is more likely to happen.
+* Writing feature- the site includes an option for users to write down how they are feeling. This content is not saved and is cleared as soon as the user hits clear or the page is refreshed. Writing thoughts and feelings down is a really good way of letting go of stresses and frustrations. For the user, knowing it is not saved  can help people truly let go.
+* Checklist- The Daily Lift Page includes a checklist where users can check off a number of items that can contribute to a happy and productive day at work. 
+* Modal pop ups- On the checklist, when a user checks an item off a modal pops up with a positive message and affirmation. This is to continue to contribute to the positive work the user is attaining by using the site. 
+* Social media links- In the footer there are links to various social media links, to allow users to continue to follow Mindscape.
+* About page- Gives users a good understanding of why the site exists and what its mission is.
 
 
 
 ### **Features Left to Implement**
-
+* Registration/Login - In the future users can register for an account and login. Users can then save information from the checklist and see there improvements over time, if they wish. 
 
 ### Wireframes
 The wireframes for this project were developed using [Balsamiq](https://balsamiq.com/).
