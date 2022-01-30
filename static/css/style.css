@@ -305,6 +305,12 @@ nav > ul {
     height:600px;
 }
 
+/* login */
+#login{
+    padding-top: 60px;
+}
+
+
 /* Footer */
 footer{
     background-color: var(--footerHeaderBackground);
