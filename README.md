@@ -142,11 +142,12 @@ A clone of the repository can be made, which will create a local copy on your ow
 - Fonts used are from [Google Fonts](https://fonts.google.com/)
 
 #### Code Content
-- Card panels and modal templates used from Bootstrap
+- Card panels and modal templates in My Daily Lift used from Bootstrap
 
 ### Media
 
 #### Images
+* Hero image used from [Pexels](https://www.pexels.com/photo/person-standing-on-dock-with-water-396947/)
 * Logo and banner designed using: [Canva](https://www.canva.com/)
 
 
