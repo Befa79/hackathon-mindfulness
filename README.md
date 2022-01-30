@@ -138,7 +138,8 @@ A clone of the repository can be made, which will create a local copy on your ow
 
 #### Website Content
 
-
+### Fonts
+- Fonts used are from [Google Fonts](https://fonts.google.com/)
 
 #### Code Content
 - Card panels and modal templates used from Bootstrap
@@ -146,6 +147,14 @@ A clone of the repository can be made, which will create a local copy on your ow
 ### Media
 
 #### Images
+* Logo and banner designed using: [Canva](https://www.canva.com/)
+
+
+#### Audio
+* [Freesound](https://freesound.org/):
+    * 'complete-task.mp3' by 'valeulloam97'
+    * 'whoosh.flac' by 'qubodup'
+    * 'sea.flac' by 'SamsterBirdies'
 
 
 ## Acknowledegments
