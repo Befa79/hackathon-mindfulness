@@ -82,14 +82,34 @@ h2, h4, p {
 }
 
  .form-floating {
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
     width: 60%;
     height: 40%;
     border-radius: 20px;
  }
 
+ #floatingTextarea2 {
+    height: 300px;
+    border: none;
+    background-color: #fff;
+    padding: 20px;
+}
+
  #clear-btn {
-     margin-bottom: 30px;
+    width: 30%;
+    height: 50px;
+    padding: 5px;
+    background-color: #8E7DBE;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+ }
+
+ #clear-btn:hover {
+    background-color: #59516d;
  }
 
 
