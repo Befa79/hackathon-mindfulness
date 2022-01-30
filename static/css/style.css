@@ -82,14 +82,22 @@ h2, h4, p {
 }
 
  .form-floating {
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
     width: 60%;
     height: 40%;
     border-radius: 20px;
  }
 
+ #floatingTextarea2 {
+    height: 300px;
+    border: none;
+    background-color: #fff;
+    padding: 20px;
+}
+
  #clear-btn {
-     margin-bottom: 30px;
+     
  }
 
 
