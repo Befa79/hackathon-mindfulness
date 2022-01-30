@@ -137,8 +137,13 @@ A clone of the repository can be made, which will create a local copy on your ow
 ### Content
 
 #### Website Content
-
-### Fonts
+- Quotes and affirmations in My Daily Lift used from [Oprah Daily](https://www.oprahdaily.com/life/relationships-love/g25629970/positive-affirmations/)
+- Content regarding ways to manage stress modifed from several websites
+    * https://www.today.com/health/how-deal-stress-daily-basis-t126882
+    * https://www.100percentpure.com/blogs/feed/6-ways-to-instantly-de-stress
+    * https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/tips-to-reduce-stress/
+    
+#### Fonts
 - Fonts used are from [Google Fonts](https://fonts.google.com/)
 - Icons used are from [Font Awesome](https://fontawesome.com/)
 
