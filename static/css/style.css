@@ -352,11 +352,19 @@ nav > ul {
 
 #welcome {
     margin: 30px 30px 0;
+    font-size: 70px;
+    padding:10px;
+    color:#006D77;
 }
 
 .intro-message {
-    margin: 25px 0;
+    margin-top:35px;
+    margin-bottom: 60px;
 }
+
+/* .welcome-box {
+    
+} */
 
 /* Footer */
 footer{
@@ -412,5 +420,9 @@ footer{
 
     .positive-slogan{
         font-size: 1rem;
+    }
+
+    .social-media {
+        font-size: 15px;
     }
 }
