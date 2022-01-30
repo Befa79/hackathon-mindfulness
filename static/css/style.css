@@ -331,6 +331,12 @@ nav > ul {
     margin: 25px 0;
 }
 
+/* login */
+#login{
+    padding-top: 60px;
+}
+
+
 /* Footer */
 footer{
     background-color: var(--footerHeaderBackground);
