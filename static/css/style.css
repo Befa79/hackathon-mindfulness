@@ -69,6 +69,8 @@ h2, h4, p {
     height: 250px;
     margin: 30px 0;
     text-align: center;
+    border: 1px solid #006D77;
+    border-radius: 20px;
 }
 
 .card-title {
@@ -85,6 +87,10 @@ h2, h4, p {
     box-shadow: 0 0 0 0.25rem #83c5be;
 }
 
+.form-check-input:hover {
+    background-color: #C1E2DE;
+}
+
 .modal-title {
     margin: 0 auto;
 }
@@ -97,10 +103,27 @@ h2, h4, p {
 .main-container {
     margin-bottom: 80px;
     margin-top: 80px;
+    line-height: 30px;
 }
 
 #reload {
-    margin: 15px;
+    margin-top: 30px;
+    background-color: #C1E2DE;
+    width: 50%;
+    height: 50px;
+    color: #006D77;
+    border: none;
+    border-radius: 20px;
+}
+
+#reload:hover {
+    background-color: #83C5BE;
+}
+
+.well-done-msg {
+    background-color: #006D77;
+    color: #fff;
+    border-radius: 20px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
