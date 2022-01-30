@@ -22,9 +22,11 @@
 body {
     background-color: var(--bodyBackground);
     font-family: 'Dosis', sans-serif;
+    font-size:20px;
     
 }
 h2 {
+    font-size: 50px;
     margin: 50px;
 }
 
@@ -132,7 +134,6 @@ h2, h4, p {
     border: 1px solid #006D77;
     border-radius: 20px;
     text-align: center;
-    font-size: 20px;
     margin-right:10px;
     margin-bottom: 20px;
     height: 40px;
@@ -143,6 +144,10 @@ h2, h4, p {
 .timer-audio-btn:hover{
     background-color: #006D77;
     color: #C1E2DE;
+}
+
+.audio-field {
+    margin-top: 20px;
 }
 
 
