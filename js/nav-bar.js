@@ -1,12 +1,13 @@
 function hamburgerMenu() {
-    const x = document.getElementById("menu-navbar");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+    const menuNavBar = document.getElementById('menu-navbar');
+    const dropDownHamburger = document.getElementById('dropdown-menu-nav');
+    if (menuNavBar.style.display === 'flex') {
+        menuNavBar.style.display = 'none';
+        dropDownHamburger.style.width = '';
+        dropDownHamburger.style.justifyContent = '';
     } else {
-      x.style.display = "block";
+        menuNavBar.style.display = 'flex';
+        dropDownHamburger.style.width = '100%';
+        dropDownHamburger.style.justifyContent = 'center';
     }
 };
-
-const x = document.getElementsByClassName("menu-navbar");
-
-console.log(x);
