@@ -140,6 +140,7 @@ A clone of the repository can be made, which will create a local copy on your ow
 
 ### Fonts
 - Fonts used are from [Google Fonts](https://fonts.google.com/)
+- Icons used are from [Font Awesome](https://fontawesome.com/)
 
 #### Code Content
 - Card panels and modal templates used from Bootstrap
