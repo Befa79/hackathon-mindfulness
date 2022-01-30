@@ -17,14 +17,19 @@ def about():
     return render_template("about.html")
 
 
-@app.route("/clear_your_head")
-def clear_your_head():
+@app.route("/clearyourhead")
+def clearyourhead():
     return render_template("clear-your-head.html")
 
 
-@app.route("/my_daily_lift")
-def my_daily_lift():
+@app.route("/mydailylift")
+def mydailylift():
     return render_template("my-daily-lift.html")
+
+
+@app.route("/login")
+def login():
+    return render_template("login.html")
 
 
 if __name__ == "__main__":
