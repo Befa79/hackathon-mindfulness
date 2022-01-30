@@ -24,7 +24,7 @@
     <!-- Section navbar -->
     <header>
         <nav>
-            <a href="index.html"><img id="mind-hackers-logo" src="images/logo.png" alt=""></a>     
+            <a href="{{ url_for('index') }}"><img id="mind-hackers-logo" src="/static/images/logo.png" alt=""></a>     
             <ul class="menu" id="menu-navbar">
                 <li><a class="nav-item" href="{{ url_for('index') }}">Home</a></li>
                 <li><a class="nav-item" href="{{ url_for('about') }}">About</a></li>
