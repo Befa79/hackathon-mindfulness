@@ -24,7 +24,7 @@ Deployed website can be viewed [here]().
 - As a user, I want to experience responsive design, so I can use the site on different devices.
 - As a user, I want to engage with an interactive chatbox, so I can help me find ways to reduce stress whilst working.
 - As a user, I want to find easy to understand content about mindfulness and stress management tools.
-- As a user, I want to use different timers to manage my 
+- As a user, I want to use different timers to encourage me to take a break from work.
 - As a user, I want to listen to calming sounds.
 - As a user, I want to be able to control whether I listen to the sounds or not.
 - As a user, I want to write down how I am feeling and be able to clear it when finished. 
@@ -65,13 +65,18 @@ The wireframes for this project were developed using [Balsamiq](https://balsamiq
 
 ### Colour Scheme
 
+The colours for the site were chosen using [Coolors](https://coolors.co/). The team decided that colours that reflected a sense of calmness and serenity was important, as not to further stress out the user. From this the team decided on the below palette. It is a combination of different shades of greens with a peach and purple. 
+
+![Coolors Palette](images/readme/coolors-palette.png)
+
 
 ### Images
 
-
+The hero image on the home page is a beach scene. This was chosen to give an immediate sense of relief and relaxtion. 
 
 ### Typography
 
+The fonts used in the site have been chosen to ensure the user can understand and enjoy the content with ease, whilst still being appealing. The main body font is called 'Dosis', which is clear and easy to read. The team wanted a font that did not complicate the experience for the user. The navbar font is called 'Indie Flower' and is a cursive font. This is flowing and adds to the calming feeling of the site. Originally it was going to be used throughout the site, but the team decided against this at a lot this font made it hard to read. [Google Fonts](https://fonts.google.com/) was used to select the fonts.
 
 ## Technologies
 
@@ -86,6 +91,7 @@ The wireframes for this project were developed using [Balsamiq](https://balsamiq
 - [Am I Responsive?](http://ami.responsivedesign.is/) was used to create the mock ups.
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 - [Bootstrap 5.1.3](https://getbootstrap.com/) was used to contribute to responsiveness and styling of the site.
+- [Font Awesome](https://fontawesome.com/) was used for the icons.
 - Git was used for version control ad to push code to GitHub.
 - [GitHub](https://github.com/) was used to store the repository.
 - [GitPod](https://www.gitpod.io/) was used as the IDE to develop the project.
@@ -133,7 +139,9 @@ A clone of the repository can be made, which will create a local copy on your ow
 #### Website Content
 
 
+
 #### Code Content
+- Card panels and modal templates used from Bootstrap
 
 ### Media
 
