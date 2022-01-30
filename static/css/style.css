@@ -194,6 +194,25 @@ h2, h4, p {
     padding-right: 30px;
 }
 
+@media screen and (max-width: 768px) {
+    .form-floating {
+        width: 90%;
+    }
+    
+    #floatingTextarea2 {
+        height: 250px;
+    }
+
+    .timer-container {
+        width: 90%;
+    }
+
+    .fa-clock {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 
 /* Home Page (Rob) */ 
 
