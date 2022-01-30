@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Indie+Flower&display=swap');
 
 :root{
+
+    --bodyBackground: #FFDDD2;
+    --footerHeaderBackground: #fff;
+
     --positiveSlogan: #D88C9A;
-    --positiveSloganBackground: rgba(100, 100, 100, 0.4); 
+    --positiveSloganBackground: rgba(100, 100, 100, 0.4);
+
+    --socialMediaIcons: #8E7DBE;
+    --socialMediaHover: #F2D0A9;
+
+
 }
 
 .nav-item {
@@ -11,7 +20,7 @@
 }
 
 body {
-    background-color: #FFDDD2;
+    background-color: var(--bodyBackground);
     font-family: 'Dosis', sans-serif;
     
 }
@@ -87,7 +96,7 @@ h2, h4, p {
 /* Home Page (Rob) */ 
 
 nav{
-    background-color: #fff;
+    background-color: var(--footerHeaderBackground);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -151,6 +160,35 @@ nav > ul {
 
 .dropdown-menu-nav{
     display: none;
+}
+
+/* Footer */
+footer{
+    background-color: var(--footerHeaderBackground);
+    padding: 20px;
+    margin: 0;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.social-media li{
+    list-style-type: none;
+    margin: 10px 15px;
+}
+
+.social-media i{
+    font-size: 160%;
+    color: var(--socialMediaIcons);
+}
+
+.social-media i:hover{
+    color: var(--socialMediaHover);
 }
 
 
