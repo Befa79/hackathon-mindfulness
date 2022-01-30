@@ -1,4 +1,5 @@
 let deleteTextSound = new Audio("audios/whoosh.flac");
+let completeTaskAudio = new Audio("audios/complete-task.mp3");
 
 document.getElementById("clear-btn").addEventListener("click", clearBtnClick);
 let fiveMinuteButton = document.getElementById("5-min-btn").addEventListener("click", initFiveMinute);
@@ -17,39 +18,46 @@ function clearBtnClick() {
 
 
 function initFiveMinute() {
-    setInterval(barCount, 5000)
-    barCount;
+    setInterval(barCount, 600);
+    taskAudio();
 }
 
 function initTenMinute() {
-    setInterval(barCount, 10000)
-    barCount;
+    setInterval(barCount, 1200)
+    taskAudio();
 }
 
 function initFifteenMinute() {
-    setInterval(barCount, 15000)
-    barCount;
+    setInterval(barCount, 1800)
+    taskAudio();
 }
 
 function initThirtyMinute() {
-    setInterval(barCount, 30000)
-    barCount;
+    setInterval(barCount, 3600)
+    taskAudio();
 }
 
 function initSixtyMinute() {
-    setInterval(barCount, 60000)
-    barCount;
+    setInterval(barCount, 7200)
+    taskAudio();
 }
 
 
-var timeLeft = document.getElementById("time-left");
-var countdownBar = document.getElementById("countdown-bar");
-
 function barCount() {
+    var timeLeft = document.getElementById("time-left");
+    var countdownBar = document.getElementById("countdown-bar");
+
     if (timeLeft.clientWidth < countdownBar.clientWidth) {
         timeLeft.style.width = timeLeft.clientWidth + 1 + "px";
     } else {
         timeLeft.style.width = countdownBar.clientWidth + "px";
-        clearInterval(timer);
     }
+
+}
+
+function taskAudio() {
+    completeTaskAudio.play();
+    completeTaskAudio.volume = 0.3;
+    completeTaskAudio.loop=false;
+    
 }
