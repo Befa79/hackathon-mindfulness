@@ -362,9 +362,11 @@ nav > ul {
     margin-bottom: 60px;
 }
 
-/* .welcome-box {
-    
-} */
+
+/* login */
+#login{
+    padding-top: 60px;
+}
 
 /* Footer */
 footer{
