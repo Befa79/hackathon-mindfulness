@@ -88,6 +88,10 @@ h2, h4, p {
     margin: 0;
 }
 
+.main-container {
+    margin-bottom: 80px;
+}
+
 #reload {
     margin: 15px;
 }
@@ -178,6 +182,7 @@ h2, h4, p {
 
 .audio-field {
     margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .fa-comment {
@@ -193,7 +198,7 @@ h2, h4, p {
 /* Home Page (Rob) */ 
 
 nav{
-    background-color: var(--footerHeaderBackground);
+    background-color:#83C5BE;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -229,7 +234,6 @@ nav > ul {
 
 .menu a:hover{
     color:#006D77;
-    /* background-color:var(--positiveSloganBackground); */
 }
 
 .home-hero-outer{
@@ -265,11 +269,20 @@ nav > ul {
 }
 
 
+.welcoming-msg {
+    height:200px;
+}
+
 /* Footer */
 footer{
     background-color: var(--footerHeaderBackground);
-    padding: 20px;
-    margin: 0;
+    height: 70px;
+    margin-top: 70px;
+    padding-top: 10px;
+    clear:both;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 }
 
 .social-media{
@@ -282,7 +295,6 @@ footer{
 
 .social-media li{
     list-style-type: none;
-    margin: 10px 15px;
 }
 
 .social-media i{
