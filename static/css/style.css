@@ -69,6 +69,17 @@ h2, h4, p {
     margin: 0;
 }
 
+.end-container {
+    text-align: center;
+    background-color: #EDF6F9;
+    padding: 25px;
+    border-radius: 7px;
+}
+
+#reload {
+    margin: 15px;
+}
+
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .card {
         height: 250px;
