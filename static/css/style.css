@@ -24,8 +24,9 @@ body {
     background-color: var(--bodyBackground);
     font-family: 'Dosis', sans-serif;
     font-size:20px;
-    
+    line-height: 30px;  
 }
+
 h2 {
     font-size: 50px;
     margin: 50px;
@@ -36,22 +37,48 @@ h2, h4, h5, p {
     text-align: center;
 }
 
-.content-container {
-    text-align: center;
-    background-color: #EDF6F9;
-    padding: 25px;
-    border-radius: 7px;
-    margin: 20px 0;
-}
 
 /* about page */
+
+.content-container {
+    text-align: center;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
 
 .resource-links {
     text-align: left;
 }
 
-.content-container {
-    margin-bottom: 80px;
+.resource-links li {
+    list-style: circle;
+}
+
+.resource-link-title{
+    text-decoration: none;
+    color:#8E7DBE ;
+}
+
+.resource-link-title:hover {
+    color:#006D77;
+}
+
+.about-container-box {
+    background-color: #fff;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #8E7DBE;
+    border-radius: 20px;
+}
+
+.about-sub-title {
+    color:#8E7DBE;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 20px;
 }
 
 /* my daily lift */
