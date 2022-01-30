@@ -150,6 +150,15 @@ h2, h4, p {
     margin-top: 20px;
 }
 
+.fa-comment {
+    padding-left:10px;
+}
+
+.fa-clock {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
 /* Home Page (Rob) */ 
 
