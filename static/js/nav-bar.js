@@ -10,4 +10,4 @@ function hamburgerMenu() {
         dropDownHamburger.style.width = '100%';
         dropDownHamburger.style.justifyContent = 'center';
     }
-};
+}
