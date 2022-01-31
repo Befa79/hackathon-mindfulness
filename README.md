@@ -124,6 +124,17 @@ The fonts used in the site have been chosen to ensure the user can understand an
 ### Lighthouse: 
 ![Lighthouse](images/readme/lighthouse.png)
 
+## Bugs
+
+We encountered a few bugs while trying to deploy our Interactive chatbot to the website alongside our other features.
+
+What we aimed for: ![chatbot example](https://user-images.githubusercontent.com/65243328/151778041-74c0d3f1-e226-4af3-9a0e-6a6ad6aa7584.JPG)
+
+Bugs that showed up: ![chatbot error](https://user-images.githubusercontent.com/65243328/151778281-3dbe81cc-5a35-47ba-92c8-f5abd7ad5e23.JPG)
+
+We tried to install Flask to get the Python app to run through however this did not configure properly.
+In the future we hope to work on this to get the Interactive chatbot fully functional so users can interact with their Mental Health partner in the LiveChat.
+
 ## Deployment
 
 The following steps were followed to deploy the project to a live website in GitHub, using Github Pages:
