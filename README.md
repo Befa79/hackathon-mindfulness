@@ -121,6 +121,9 @@ The fonts used in the site have been chosen to ensure the user can understand an
 ### [CSS Validator:](https://jigsaw.w3.org/css-validator/)
 * No errors found.
 
+### [JSHint:](https://jshint.com/)
+* Some missing semicolons found and added. Several warnings found.
+
 ### Lighthouse: 
 ![Lighthouse](images/readme/lighthouse.png)
 
