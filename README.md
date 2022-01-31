@@ -124,6 +124,10 @@ The fonts used in the site have been chosen to ensure the user can understand an
 ### [JSHint:](https://jshint.com/)
 * Some missing semicolons found and added. Several warnings found.
 
+### [Python Syntax Checker PEP8](https://www.pythonchecker.com/)
+* 68% Good Rating. Hints indicating we add some whitespace to Python code for easier readability.
+* No errors found.
+
 ### Lighthouse: 
 ![Lighthouse](images/readme/lighthouse.png)
 
