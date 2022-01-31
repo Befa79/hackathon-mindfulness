@@ -1,10 +1,10 @@
 # Mindscape
 
-![Mock-up of site]()
+![Mock-up of site](images/readme/amiresponsive.png)
 
 Mindscape has been developed as part of Code Institute's Hackathon, partnered with Trust in Soda. This Hackathon is on "Accerlerating the future of workforce well-being and mindfulness".The brief for this Hackathon is to develop a site that rethinks soloutions to help build an initiative to improve different aspects of mental health and well-being in 2022. 
 
-Deployed website can be viewed [here]().
+Deployed website can be viewed [here](https://hackathon-mindfulness.herokuapp.com/).
 
 
 ## Project Goals
