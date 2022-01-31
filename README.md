@@ -210,5 +210,7 @@ A clone of the repository can be made, which will create a local copy on your ow
     * 'sea.flac' by 'SamsterBirdies'
 
 
-## Acknowledegments
+## Acknowledegments:
+We thank [Code Institute](https://codeinstitute.net/se/5-day-coding-challenge/?utm_term=code%20institute&utm_campaign=CI+-+SWE+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14660337051&hsa_grp=134087657984&hsa_ad=546251838362&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiArt6PBhCoARIsAMF5wajobw5RmzmDSvl-nqpJtRaVQKF-Znj4iDi1CR3oW-l9rBFnjMP_T1QaAvkOEALw_wcB) for organizing this Hackathon, partnering with [Trust in Soda](https://www.trustinsoda.com/).
 
+This Hackathon is on "Accerlerating the future of workforce well-being and mindfulness". The brief for this Hackathon is to develop a site that rethinks soloutions to help build an initiative to improve different aspects of mental health and well-being in 2022.
