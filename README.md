@@ -35,15 +35,30 @@ Deployed website can be viewed [here]().
 
 
 ### **Existing Features**
-* Responsive design- the site has been developed using Bootstrap and custom CSS to ensure the site is responsive across all devices.
-* Interactive chat box
-* Timers- the site includes timers that enables the user to select a timer for a time out session. This encourages the user to take some time out from there day and can hold the user accountable. It's easy to say that you will take 5 minutes but when it is timed it is more likely to happen.
-* Writing feature- the site includes an option for users to write down how they are feeling. This content is not saved and is cleared as soon as the user hits clear or the page is refreshed. Writing thoughts and feelings down is a really good way of letting go of stresses and frustrations. For the user, knowing it is not saved  can help people truly let go.
-* Checklist- The Daily Lift Page includes a checklist where users can check off a number of items that can contribute to a happy and productive day at work. 
-* Modal pop ups- On the checklist, when a user checks an item off a modal pops up with a positive message and affirmation. This is to continue to contribute to the positive work the user is attaining by using the site. 
-* Social media links- In the footer there are links to various social media links, to allow users to continue to follow Mindscape.
-* About page- Gives users a good understanding of why the site exists and what its mission is.
+* **Responsive design** - the site has been developed using Bootstrap and custom CSS to ensure the site is responsive across all devices.
 
+* **Interactive chat box**
+
+* **Timers** - the site includes timers that enables the user to select a timer for a time out session. This encourages the user to take some time out from there day and can hold the user accountable. It's easy to say that you will take 5 minutes but when it is timed it is more likely to happen.
+    ![Timer Feature](images/readme/timer.png)
+
+* **Writing feature** - the site includes an option for users to write down how they are feeling. This content is not saved and is cleared as soon as the user hits clear or the page is refreshed. Writing thoughts and feelings down is a really good way of letting go of stresses and frustrations. For the user, knowing it is not saved can help people truly let go.
+    ![Writing Feature](images/readme/writing.png)
+
+* **Checklist** - The Daily Lift Page includes a checklist where users can check off a number of items that can contribute to a happy and productive day at work. 
+    ![Checklist Feature](images/readme/checklist.png)
+
+* **Modal pop ups** - On the checklist, when a user checks an item off a modal pops up with a positive message and affirmation. This is to continue to contribute to the positive work the user is attaining by using the site.
+    ![Modal pop-ups Feature](images/readme/modal-pop-ups.png)
+
+* **Social media links** - In the footer there are links to various social media links, to allow users to continue to follow Mindscape.
+    ![Footer](images/readme/footer.png)
+
+* **About Page** - Gives users a good understanding of why the site exists and what its mission is.
+    ![About page](images/readme/about.png)
+
+* **Login Page** - The login page has the front-end of login feature. This page is the base for future implementation of user-registrations.
+    ![Login page](images/readme/login.png)
 
 
 ### **Features Left to Implement**
@@ -95,9 +110,19 @@ The fonts used in the site have been chosen to ensure the user can understand an
 - Git was used for version control ad to push code to GitHub.
 - [GitHub](https://github.com/) was used to store the repository.
 - [GitPod](https://www.gitpod.io/) was used as the IDE to develop the project.
+- [GitHub Projects](https://github.com/Befa79/hackathon-mindfulness/projects/1) was used to manage the workflow of the project.
 - [Google Fonts](https://fonts.google.com/) were used to select fonts for the site.
 
 ## Testing
+
+### [HTML Validator:](https://validator.w3.org/)
+* Errors were found and few warnings.
+
+### [CSS Validator:](https://jigsaw.w3.org/css-validator/)
+* No errors found.
+
+### Lighthouse: 
+![Lighthouse](images/readme/lighthouse.png)
 
 ## Deployment
 
