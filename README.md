@@ -67,16 +67,19 @@ Deployed website can be viewed [here](https://hackathon-mindfulness.herokuapp.co
 ### Wireframes
 The wireframes for this project were developed using [Balsamiq](https://balsamiq.com/).
 
-| Mobile | Tablet| Desktop|
---------------------|--------------------|--------------------------|
-| [Mobile Home Page]() | [Tablet Home Page]() | [Desktop Home Page]() |
-| [Mobile About Page]() | [Tablet About Page]() | [About Page]() |
-| [Mobile Clear Your Head Page]() | [Tablet Clear Your Head Page]() | [Desktop Clear Your Head Page]() |
-| [Mobile My Daily Lift Page]() | [Tablet My Daily Lift Page]() | [Desktop My Daily Lift Page]() |
-| [Mobile Login Page]() | [Tablet Login Page]() | [Desktop Login Page]() |
+* **Desktop Wireframes:**
+        
+    ![Home page](images/readme/home-page-wireframe.png) ![pop-up-wireframe](images/readme/pop-up-wireframe.png) ![Chat-bot](images/readme/chat-bot-wireframe.png) ![About page](images/readme/about-wireframe.png) ![Clear Your Head Page](images/readme/clear-your-head-wireframe.png) ![Timer-wireframe](images/readme/timer-wireframe.png) ![My Daily Lift Page](images/readme/my-daily-lift-wireframe.png)
+
+* **Mobile Wireframes:**
+
+     ![Mobile Home page](images/readme/mobile-home.png) ![Mobile Menu](images/readme/mobile-menu.png) ![Mobile Timer](images/readme/mobile-timer.png) ![Mobile About page](images/readme/mobile-about.png) ![Mobile Daily Lift page](images/readme/mobile-daily-lift.png)
+
 
 ### Changes to Wireframes
-
+Through the coding process, some minor changes have been done from the initial wireframes. 
+* These such as size of timer (we used buttons for timer instead of dropdown list). 
+* In My Daily lift, instead of list of checkbox, we have used separate container-card-boxes for each item.
 
 ### Colour Scheme
 
