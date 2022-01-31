@@ -1,7 +1,7 @@
-let deleteTextSound = new Audio("audios/whoosh.flac");
-let completeTaskAudio = new Audio("audios/complete-task.mp3");
-let seaAudio = new Audio("audios/sea.flac");
-let cityParkAudio = new Audio("audios/city-park.wav");
+let deleteTextSound = new Audio("static/audios/whoosh.flac");
+let completeTaskAudio = new Audio("static/audios/complete-task.mp3");
+let seaAudio = new Audio("static/audios/sea.flac");
+let cityParkAudio = new Audio("static/audios/city-park.wav");
 
 document.getElementById("clear-btn").addEventListener("click", clearBtnClick);
 document.getElementById("nature-audio-start").addEventListener("click", natureAudioStart);
